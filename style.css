@@ -1,0 +1,309 @@
+body {
+    background:white url('body-bg.jpg');
+}
+
+
+#end {
+    width: 30%;
+    height: auto;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+#learn {
+    font-weight: bold;
+}
+
+#fortunenumber {
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+
+}
+
+#cover {
+    width: 102%;
+    height: auto;
+    margin-left: -1%;
+    margin-top: -11%;
+}
+
+#words {
+    margin-left: 30%;
+    margin-top: -9%;
+    text-decoration: none;
+    line-height: 40px;
+
+}
+
+#luckyNumber:hover{
+    font-style: italic;
+    color: #ff00ff;
+}
+
+#englishword:hover{
+    font-style: italic;
+    color: #ff00ff;
+}
+
+#videolink {
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+
+#luckyWord {
+    font-weight: bold ; 
+    text-decoration: none; 
+    color: black;
+}
+ 
+ #luckyWord a:visited{
+    font-weight: bold ; 
+    text-decoration: none; 
+    color: black;
+}
+
+ #luckyNumber { 
+    text-decoration: none;
+    font-weight: normal; 
+    color: #ff00ff;
+
+ }
+
+ #englishword {
+    text-decoration: none;
+    color: #ff00ff;
+ }
+
+
+.new:hover{
+    font-style: italic;
+    color: #ff00ff;
+}
+
+.opening:hover{
+    font-style: italic;
+    color: #ff00ff;
+}
+
+
+div {
+    font-size: 30px;
+    font-family: helvetica;
+
+}
+
+
+.selectone {
+        
+        color: #ff00ff;
+        border: #ff00ff;
+        border-style: solid;
+        padding-left: 7px;
+        padding-right: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+
+}
+
+.selectone:hover {
+        
+        border: black;
+        border-style: solid;
+        padding-left: 7px;
+        padding-right: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+
+}
+
+.menualign{
+    display: inline-block;
+    position: relative;
+}
+
+.menu a{
+    text-decoration: none;
+}
+/*.clearfix:after {
+    display:block;
+    clear:both;
+}*/
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:150%;
+    /*box-shadow:0px 1px 3px rgba(0,0,0,0.2);*/
+   /* background:black;*/
+   padding-left: 30%;
+   padding-top: 15%;
+}
+ 
+/*.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ */
+/*.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}*/
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:black;
+}
+ 
+/*.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:black;
+}*/
+ 
+/*.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ */
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    /*background:#2e2728;*/
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:98.25%;
+    padding:10px 0px;
+    position:absolute;
+    /*top:100%;*/
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:white;
+    border-style: solid;
+    margin-top: 5px;
+
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    /*background:#3e3436;*/
+    color: #ff00ff;
+
+}
+
+.droptext {
+    font-size: 20px;
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+div {
+    font-size: 10px;
+    font-family: helvetica;
+
+}
+
+
+.selectone {
+        
+        color: #ff00ff;
+        border: #ff00ff;
+        border-style: solid;
+        padding-left: 7px;
+        padding-right: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 80px;
+
+}
+
+
+
+div {
+    font-size: 45px;
+    font-family: helvetica;
+
+}
+
+#words {
+    margin-left: 20%;
+    margin-top: -9%;
+    text-decoration: none;
+    line-height: 70px;
+
+}
+
+#end {
+    width: 60%;
+    height: auto;
+    /*margin-left: 12%;*/
+    margin-top: 15%;
+}
+
+#fortunenumber {
+    width: 100%;
+    height: auto;
+    padding-top: 30%
+
+}
+
+.selectone:hover {
+    border: black;
+    border-style: solid;
+    padding-left: 7px;
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 80px;
+}
+
+.droptext {
+    font-size: 50px;
+}
+
+.firstword {
+    font-size: 80px ; 
+}
+
+
